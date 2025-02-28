@@ -24,14 +24,6 @@
               <text value="Title:"/>
             </properties>
           </component>
-          <component id="b75b6" class="javax.swing.JTable" binding="all_movies">
-            <constraints>
-              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-                <preferred-size width="150" height="50"/>
-              </grid>
-            </constraints>
-            <properties/>
-          </component>
           <component id="667fe" class="javax.swing.JButton" binding="Genre">
             <constraints>
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -39,14 +31,6 @@
             <properties>
               <text value="Genre"/>
             </properties>
-          </component>
-          <component id="38118" class="javax.swing.JTextField" binding="Genre_result">
-            <constraints>
-              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-                <preferred-size width="150" height="-1"/>
-              </grid>
-            </constraints>
-            <properties/>
           </component>
           <component id="fca6f" class="javax.swing.JTextField" binding="Title_result">
             <constraints>
@@ -62,6 +46,22 @@
             </constraints>
             <properties>
               <text value="Search movie:"/>
+            </properties>
+          </component>
+          <component id="b75b6" class="javax.swing.JTable" binding="all_movies">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4ed65" class="javax.swing.JComboBox" binding="genre_combobox">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model/>
             </properties>
           </component>
         </children>
